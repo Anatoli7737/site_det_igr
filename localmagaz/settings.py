@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     # our_apps
     "catalog.apps.CatalogConfig",
     # 3rd apps
+    "goods",
 ]
 
 MIDDLEWARE = [
