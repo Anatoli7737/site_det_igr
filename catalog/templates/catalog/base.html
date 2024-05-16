@@ -58,7 +58,7 @@
                                 <li><a class="dropdown-item  text-white" href="carts/cart.html">Корзина</a></li>
                                 <li><a class="dropdown-item  text-white" href="users/profile.html">Личный кабинет</a>
                                 </li>
-                                <li><a class="dropdown-item  text-white" href="#">Админ панель</a></li>
+                                <li><a class="dropdown-item  text-white" href="{% url "admin:index" %}">Админ панель</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
@@ -87,12 +87,12 @@
                     </button>
                     <ul class="dropdown-menu bg-dark" data-bs-theme="dark">
                         <li><a class="dropdown-item text-white" href="{% url "cataloge:index" %}">Все товары</a></li>
-                        <li><a class="dropdown-item text-white" href="{% url "cataloge:index" %}">Кухня</a></li>
-                        <li><a class="dropdown-item text-white" href="{% url "cataloge:index" %}">Спальня</a></li>
-                        <li><a class="dropdown-item text-white" href="{% url "cataloge:index" %}">Гостинная</a></li>
-                        <li><a class="dropdown-item text-white" href="{% url "cataloge:index" %}">Офис</a></li>
-                        <li><a class="dropdown-item text-white" href="{% url "cataloge:index" %}">Фурнитура</a></li>
-                        <li><a class="dropdown-item text-white" href="{% url "cataloge:index" %}">Декор</a></li>
+                        <li><a class="dropdown-item text-white" href="{% url "cataloge:index" %}">Детские конструкторы</a></li>
+                        <li><a class="dropdown-item text-white" href="{% url "cataloge:index" %}">Куклы и аксессуары</a></li>
+                        <li><a class="dropdown-item text-white" href="{% url "cataloge:index" %}">Мягкие игрушки</a></li>
+                        <li><a class="dropdown-item text-white" href="{% url "cataloge:index" %}">Мозайки и пазлы</a></li>
+                        <li><a class="dropdown-item text-white" href="{% url "cataloge:index" %}">Настольные игры</a></li>
+                        <li><a class="dropdown-item text-white" href="{% url "cataloge:index" %}">Развивающие игрушки</a></li>
                     </ul>
                 </div>
                 <!-- Значек корзины, вызывает модальное окно -->
@@ -142,7 +142,7 @@
                                                     <div class="col p-0">
                                                         <p>x 100.00 = </p>
                                                     </div>
-                                                    <div class="col p-0"><strong>100.00 $</strong></div>
+                                                    <div class="col p-0"><strong>100.00 р</strong></div>
                                                     <div class="col p-0">
                                                         <a href="#" class="remove-from-cart" data-cart-id="">
                                                             <img class="mx-1" src="{% static "deps/icons/trash3-fill.svg" %}"
@@ -156,7 +156,7 @@
                                     <div class="card mb-3 shadow-lg">
                                         <div class="card-footer">
                                             <p class="float-left">Итого <strong>1</strong> товар(а) на сумму</p>
-                                            <h4 class="float-left"><strong>100.00 $</strong></h4>
+                                            <h4 class="float-left"><strong>100.00 р</strong></h4>
                                         </div>
                                     </div>
                                     <!-- Закончилась разметка корзины -->

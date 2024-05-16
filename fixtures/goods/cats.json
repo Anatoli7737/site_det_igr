@@ -1,0 +1,58 @@
+[
+	{
+		"model": "goods.categories",
+		"pk": 6,
+		"fields": {
+			"name": "Все товары",
+			"slug": "all"
+		}
+	},
+	{
+		"model": "goods.categories",
+		"pk": 7,
+		"fields": {
+			"name": "Детские конструкторы",
+			"slug": "detskiye konstruktory"
+		}
+	},
+	{
+		"model": "goods.categories",
+		"pk": 8,
+		"fields": {
+			"name": "Куклы и аксессуары",
+			"slug": "kukly i aksessuary"
+		}
+	},
+	{
+		"model": "goods.categories",
+		"pk": 9,
+		"fields": {
+			"name": "Мягкие игрушки",
+			"slug": "myagkiye igrushki"
+		}
+	},
+	{
+		"model": "goods.categories",
+		"pk": 10,
+		"fields": {
+			"name": "Мозайки и пазлы",
+			"slug": "mozaiki i pazly"
+		}
+	},
+	{
+		"model": "goods.categories",
+		"pk": 11,
+		"fields": {
+			"name": "Настольные игры",
+			"slug": "nastolnye igry"
+		}
+	},
+	{
+		"model": "goods.categories",
+		"pk": 12,
+		"fields": {
+			"name": "Развивающие игрушки",
+			"slug": "razvivayushchiye igrushki"
+		}
+	}
+]

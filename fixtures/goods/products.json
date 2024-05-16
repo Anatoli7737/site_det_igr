@@ -1,0 +1,170 @@
+[
+	{
+		"model": "goods.products",
+		"pk": 1,
+		"fields": {
+			"name": "Конструктор LEGO Гараж",
+			"slug": "konstruktor-lego-garazh",
+			"description": "Пройдите диагностику и ремонт в автосервисе из конструктора Lego City Custom Car Garage. Здесь есть всё для заботы о любимых машинках!",
+			"image": "goods_images/lego_garazh.jpg",
+			"price": "150.00",
+			"discount": "10.00",
+			"quantity": 10,
+			"category": 7
+		}
+	},
+	{
+		"model": "goods.products",
+		"pk": 2,
+		"fields": {
+			"name": "Конструктор LEGO Минекрафт",
+			"slug": "konstruktor-lego-minicraft",
+			"description": "Отправляйтесь в приключение с набором Lego Minecraft The Swamp Adventure! Помогите Алексу пройти через мангровые болота и отразить атаки зомби.",
+			"image": "goods_images/lego_minicraaft.jpg",
+			"price": "93.00",
+			"discount": "2.50",
+			"quantity": 7,
+			"category": 7
+		}
+	},
+	{
+		"model": "goods.products",
+		"pk": 3,
+		"fields": {
+			"name": "Кукольный набор Barbie Пекарня",
+			"slug": "kukolnyy-nabor-barbie-pekarnya",
+			"description": "Кукольный набор Barbie Пекарня – почувствуй себя настоящим кондитером. Набор для девочек вместе с неповторимой куклой Барби воплотит в реальность мечту каждой девочки.",
+			"image": "goods_images/kukla_barbie3.jpg",
+			"price": "670.00",
+			"discount": "0.00",
+			"quantity": 5,
+			"category": 8
+		}
+	},
+	{
+		"model": "goods.products",
+		"pk": 4,
+		"fields": {
+			"name": "Кукла Barbie Mattel Спальня",
+			"slug": "kukla-barbi-mattel-spalnya",
+			"description": "Набор для спальни Барби вдохновляет рассказывать удивительные истории вечером и утром. ",
+			"image": "goods_images/kukla_barbie44.jpg",
+			"price": "365.00",
+			"discount": "0.00",
+			"quantity": 11,
+			"category": 7
+		}
+	},
+	{
+		"model": "goods.products",
+		"pk": 5,
+		"fields": {
+			"name": "Игрушка Мой питомец Щенок Молли",
+			"slug": "igrushka-moy-pitomets-shchenok-molli",
+			"description": "Интерактивная игрушка Мой питомец Щенок Молли станет добрым другом для вашего ребёнка.",
+			"image": "goods_images/moi_pitomec.jpg",
+			"price": "430.00",
+			"discount": "5.00",
+			"quantity": 8,
+			"category": 7
+		}
+	},
+	{
+		"model": "goods.products",
+		"pk": 6,
+		"fields": {
+			"name": "Мягкая игрушка Медведь Мика",
+			"slug": "myagkaya-igrushka-medved-mika",
+			"description": "Медведь Мика – самый обаятельный и верный друг. Этот плюшевый мишка маленький и нежный: его шубка не только теплая, но еще и очень мягкая.",
+			"image": "goods_images/moi_mishka.jpg",
+			"price": "610.00",
+			"discount": "2.00",
+			"quantity": 8,
+			"category": 9
+		}
+	},
+	{
+		"model": "goods.products",
+		"pk": 7,
+		"fields": {
+			"name": "Пазлы для детей На ферме",
+			"slug": "pazly-dlya-detey-na-ferme",
+			"description": "Игра с пазлами поможет развить усидчивость, мелкую моторику рук, а также научит находить связь между частью и целым.",
+			"image": "goods_images/pazzle_1.jpg",
+			"price": "55.00",
+			"discount": "0.00",
+			"quantity": 6,
+			"category": 8
+		}
+	},
+	{
+		"model": "goods.products",
+		"pk": 8,
+		"fields": {
+			"name": "Детская развивающая мозаика",
+			"slug": "detskaya-razvivayushchaya-mozaika",
+			"description": "Подарите вашему ребёнку увлекательную развивающую мозаику.",
+			"image": "goods_images/mozaika_5.jpg",
+			"price": "190.00",
+			"discount": "5.00",
+			"quantity": 5,
+			"category": 9
+		}
+	},
+	{
+		"model": "goods.products",
+		"pk": 9,
+		"fields": {
+			"name": "Настольная игра Азбука на картинках",
+			"slug": "nastolnaya-igra-azbuka-na-kartinkah",
+			"description": "Изучайте буквы в легкой игровой форме вместе с вашим малышом. А красочные картинки превратят обучение в веселую игру!",
+			"image": "goods_images/game_1.jpg",
+			"price": "30.00",
+			"discount": "0.50",
+			"quantity": 35,
+			"category": 10
+		}
+	},
+	{
+		"model": "goods.products",
+		"pk": 10,
+		"fields": {
+			"name": "Пластик на липучках Времена года",
+			"slug": "plastik-na-lipuchkah-vremena-goda",
+			"description": "Игра развивает координацию движений, интеллект и память, внимание и усидчивость, учит сопоставлять объекты между собой, расширяет словарный запас.",
+			"image": "goods_images/game_321.jpg",
+			"price": "10.00",
+			"discount": "0.00",
+			"quantity": 17,
+			"category": 12
+		}
+	},
+	{
+		"model": "goods.products",
+		"pk": 11,
+		"fields": {
+			"name": "Игрушка Развивающий комплекс",
+			"slug": "igrushka-razvivayushchiy-kompleks",
+			"description": "Отличная игра для знакомства с окружающим миром.",
+			"image": "goods_images/toys_1.jpg",
+			"price": "15.00",
+			"discount": "0.00",
+			"quantity": 17,
+			"category": 12
+		}
+	},
+	{
+		"model": "goods.products",
+		"pk": 12,
+		"fields": {
+			"name": "Игрушка Умный зайка",
+			"slug": "igrushka-umnaya-zayka",
+			"description": "Умный зайка - незаменимый помощник для мамы и лучший друг для малыша. Познакомит малыша с миром звуков и цветов, будет рассказывать сказки и стишки, петь песенки и сладкие колыбельные",
+			"image": "goods_images/zaika_1.jpg",
+			"price": "25.00",
+			"discount": "90.00",
+			"quantity": 10,
+			"category": 8
+		}
+	}
+]
