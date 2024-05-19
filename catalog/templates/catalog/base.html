@@ -1,4 +1,5 @@
 {% load static %}
+{% load goods_tags %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -86,13 +87,11 @@
                         <img class="mx-1" src="{% static "deps/icons/grid-fill.svg" %}" alt="Catalog Icon" width="16" height="16">
                     </button>
                     <ul class="dropdown-menu bg-dark" data-bs-theme="dark">
-                        <li><a class="dropdown-item text-white" href="{% url "cataloge:index" %}">Все товары</a></li>
-                        <li><a class="dropdown-item text-white" href="{% url "cataloge:index" %}">Детские конструкторы</a></li>
-                        <li><a class="dropdown-item text-white" href="{% url "cataloge:index" %}">Куклы и аксессуары</a></li>
-                        <li><a class="dropdown-item text-white" href="{% url "cataloge:index" %}">Мягкие игрушки</a></li>
-                        <li><a class="dropdown-item text-white" href="{% url "cataloge:index" %}">Мозайки и пазлы</a></li>
-                        <li><a class="dropdown-item text-white" href="{% url "cataloge:index" %}">Настольные игры</a></li>
-                        <li><a class="dropdown-item text-white" href="{% url "cataloge:index" %}">Развивающие игрушки</a></li>
+                        {% tag_categories as categories %}
+                        {% for category in categories %}
+                            <li><a class="dropdown-item text-white" href="{% url "cataloge:index" %}">{{ category.name }}</a></li>
+                        {% endfor %}
+
                     </ul>
                 </div>
                 <!-- Значек корзины, вызывает модальное окно -->
