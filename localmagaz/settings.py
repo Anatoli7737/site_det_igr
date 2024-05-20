@@ -30,8 +30,9 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # our_apps
     "catalog.apps.CatalogConfig",
-    # 3rd apps
+    # apps
     "goods",
+    "users",
 ]
 
 MIDDLEWARE = [
